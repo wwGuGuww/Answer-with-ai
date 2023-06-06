@@ -1,0 +1,58 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	background-color: #bcaaa4; /* Kraft rengi */
+	color: #444444; /* Koyu gri */
+}
+
+.container {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.input-container {
+	display: flex;
+	align-items: center;
+}
+
+input[type="text"] {
+	padding: 10px;
+	flex: 1;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	background-color: #91867c; /* Koyu kraft rengi */
+	color: #fff;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #d7e2ec; /* Açık mavi */
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.output-container {
+	margin-top: 20px;
+	font-weight: bold;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.4); /* %40 transparan beyaz */
+	border-radius: 4px;
+	box-shadow: none; /* Çerçeve olmaması için */
+}
+
+h1 {
+	text-align: center;
+}
+
+.message-container {
+	margin-bottom: 10px;
+	animation: type 0.1s linear;
+}
+
+@keyframes type {
+	from { width: 0; }
+	to { width: 100%; }
+}
